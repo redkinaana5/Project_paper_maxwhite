@@ -1,0 +1,32 @@
+@font-face {
+   font-family: "Roboto";
+   src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+   font-family: "Ubuntu";
+   src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+$accent: #7875fe;
+$text-color: #85859b;
+$title-color: #666666;
+$logo-color: #333;
+$light: #ffffff;
+$medium: #ebebeb; // в лого и макс белизне
+$dark: #4c5866; // в футере, заголовок "простые вещи" и пункты меню
+
+// этот стиль подойдет для заголовков (для заголовков разных уровней отдельные классы с другим font-size)
+.title {
+   color: $title-color;
+   font-family: "Roboto";
+   line-height: 100%;
+}
+
+// этот стиль подойдет для основного текста (в  "простых вещах" и "результат вашего обучения" нужен будет отдельный Line height:150%)
+.text {
+   color: $text-color;
+   font-size: 18px;
+   font-family: "Roboto";
+   line-height: 170%;
+}
